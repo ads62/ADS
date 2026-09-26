@@ -13,7 +13,7 @@ assets/img/         → logo (dark/light), favicon e imagens dos projetos
 ```
 
 ## O que editar
-- **WhatsApp**: troque `55SEUNUMERO` em `index.html` (aparece no Hero, no header mobile e no CTA final) pelo número real, formato `55DDDNUMERO`.
+- **WhatsApp**: o número do WhatsApp já está configurado (`5535988284531`) em `index.html` — troque nos links `wa.me/` caso mude no futuro.
 - **Avaliações reais**: em `js/data.js`, preencha `review` (texto real do cliente) e `stars` (nota real, 1 a 5) para cada projeto. Enquanto `review` estiver `null`, o site mostra `[INSERIR AVALIAÇÃO REAL]` — nada foi inventado.
 - **Textos**: `js/i18n.js`, um bloco por idioma (`pt`, `en`, `es`).
 - **Projetos do portfólio**: `js/data.js` — adicione/remova objetos no array `ADS_PROJECTS`.
